@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "trigger": "更新我的阅读笔记",
+  "vault_root": null,
+  "reading_root_relative": "Reading",
+  "initial_candidate_days": null,
+  "zotero": {
+    "enabled": false,
+    "collection_scope": null,
+    "export_roots": []
+  },
+  "xiaolvjing": {
+    "enabled": false,
+    "access": "authenticated-browser",
+    "entry": "https://www.xljsci.com/editor/",
+    "folder_scope": [],
+    "export_roots": []
+  },
+  "chatgpt": {
+    "enabled": false,
+    "selected_conversation_ids": [],
+    "export_roots": []
+  },
+  "ppt_paths": [],
+  "interaction_policy": {
+    "foreground_control_default": false
+  },
+  "classification": {
+    "preserve_source_names": true,
+    "keep_source_mappings_separate": true,
+    "single_paper_multiple_indexes": true
+  }
+}

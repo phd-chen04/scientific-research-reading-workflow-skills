@@ -1,0 +1,4 @@
+interface:
+  display_name: "scientific research reading workflow-skills"
+  short_description: "把论文笔记、相关问答和汇报放在一起，接着上次整理你的阅读记录"
+  default_prompt: "使用 $scientific-research-reading-workflow-skills 更新我的阅读笔记，保留原文件夹分类和个人判断，并标出相关汇报。"

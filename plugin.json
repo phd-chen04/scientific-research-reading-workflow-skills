@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scientific-research-reading-workflow-skills",
+  "version": "0.2.0",
+  "description": "Bring paper notes, research discussions, and presentation references together in Obsidian.",
+  "license": "MIT"
+}
