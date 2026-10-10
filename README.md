@@ -42,6 +42,9 @@ codex plugin add scientific-research-reading-workflow-skills@scientific-reading
 
 本项目通过这个仓库分发；发布到 GitHub 不代表已经上架官方插件目录。
 
+
+## 简单办法：直接复制该网址给Codex，注意在Codex先安装对应的插件！！
+
 ## 开始前准备什么
 
 最少需要一个能运行 Skill 的 Codex 环境，以及一个允许 Codex 写入的 Obsidian 库。其他来源按你实际使用的工具接入，不用一次全部配齐。
@@ -106,15 +109,9 @@ codex plugin add scientific-research-reading-workflow-skills@scientific-reading
 
 已经有自己的笔记格式也没关系，告诉 Codex 沿用即可。更详细的字段约定放在 [档案说明](skills/scientific-research-reading-workflow-skills/references/schema.md) 中。
 
-## 几件使用前值得知道的事
 
-这套流程在你发出指令后运行，不会一直在后台自动同步。小绿鲸目前的验证主要覆盖网页笔记文字和列表备注；图片、手写内容及 PDF 批注要看实际能读取到多少。
 
-AI 整理出的解释会和你的判断分开。PPT 文字搜索没找到某篇论文时，也不会直接把它标成“没做过汇报”。没有读全的地方，会保留说明。
-
-你的真实笔记、聊天记录、论文和 PPT 留在自己的资料库里，不要跟这个公开仓库一起上传。
-
-## 想改成自己的版本
+## 想改成自己的ai大脑
 
 直接编辑文件就可以：
 
@@ -126,7 +123,16 @@ AI 整理出的解释会和你的判断分开。PPT 文字搜索没找到某篇�
 | 给新用户的默认配置示例 | `skills/scientific-research-reading-workflow-skills/assets/workflow.example.json` |
 | 自己的库路径、PPT 和来源范围 | 私人库中的 `Reading/workflow.json` |
 
-中英文 README 是两份独立 Markdown，不需要生成工具。修改一份后，记得同步另一份的意思；打包工具只读取它们，不会覆盖你的文字。
+
+
+## 几点注意事项
+
+这套流程在你发出指令后运行，不会一直在后台自动同步。小绿鲸目前的验证主要覆盖网页笔记文字和列表备注；图片、手写内容及 PDF 批注要看实际能读取到多少。
+
+AI 整理出的解释会和你的判断分开。PPT 文字搜索没找到某篇论文时，也不会直接把它标成“没做过汇报”。没有读全的地方，会保留说明。
+
+你的真实笔记、聊天记录、论文和 PPT 留在自己的资料库里，不要跟这个公开仓库一起上传。
+
 
 [维护和检查](docs/MAINTAINING.md) · [验证记录](docs/VALIDATION.md) · [发布到 GitHub](docs/PUBLISHING.md)
 
